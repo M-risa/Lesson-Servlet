@@ -10,7 +10,7 @@
 <body>
 	<p>入力エラー：ユーザー名または年齢が正しくありません。</p>
 	
-	<p><%=exception %></p>
+<!--	<p><%=exception %></p>-->
 
 </body>
 </html>
