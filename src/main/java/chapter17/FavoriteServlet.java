@@ -52,7 +52,7 @@ public class FavoriteServlet extends HttpServlet {
 		fav.setUrl(url);
 		favList.add(fav);
 		
-		session.setAttribute("favoriteList", fav);
+		session.setAttribute("favoriteList", favList);
 		
 		request.getRequestDispatcher("favorites.jsp").forward(request, response);
 	}
